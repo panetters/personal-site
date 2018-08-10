@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 
+import Applications from './ApplicationList';
+import BottomBar from './BottomBar';
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Michael Panetta</h1>
-        </header>
-        <div className="links">
-          <a href='/handycap'>Handycap</a>
+      <div>
+        <div className="app-title">
+          My name is Michael Panetta,<br/>
+          Welcome to my site.
         </div>
+        <Applications/>
+        <BottomBar/>
       </div>
     );
   }

@@ -1,20 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto');
 
-body {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-header {
-  background-color: teal;
-  font-family: Nunito;
-  padding: 1vh;
-  margin-bottom: 3vh;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  font-family: Roboto;
   color: white;
 }
 
-.links {
-  font-family: Nunito;
-  font-size: 2em;
+body {
+  background: linear-gradient(20deg, #db7095, #daa360) fixed; 
+}
+
+a {
+  font-family: Quicksand;
+  font-size: 3vw;
+  text-decoration: none;
+}
+
+.app-title {
+  font-family: Quicksand;
+  font-size: 6vw;
+  padding: 1vh 3vw;
+}
+
+.personal-links {
+  text-align: center;
+}
+
+.personal-svg {
+  margin: 2vw;
+  height: 4vw;
 }
