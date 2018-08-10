@@ -15,23 +15,40 @@ body {
   background: linear-gradient(20deg, #db7095, #daa360) fixed; 
 }
 
-a {
-  font-family: Quicksand;
-  font-size: 3vw;
-  text-decoration: none;
-}
-
-.app-title {
+.title {
   font-family: Quicksand;
   font-size: 6vw;
   padding: 1vh 3vw;
+  margin-bottom: 3vh;
+}
+
+.app-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.app-box {
+  display: inline-block;
+  height: 20vw;
+  width: 20vw;
+  background: rgba(255, 255, 255, .3);
+}
+
+.app-name {
+  height: 20vw;
+  line-height: 20vw;
+  font-family: Quicksand;
+  font-size: 3vw;
+  text-align: center;
 }
 
 .personal-links {
   text-align: center;
+  margin-top: 5vh;
 }
 
 .personal-svg {
   margin: 2vw;
-  height: 4vw;
+  height: 5vw;
 }
