@@ -1,16 +1,14 @@
 const appdata = [
   {
     name: 'Handycap',
+    detail: 'Golf handicap tracker',
     link: 'https://handycap.herokuapp.com'
   },
   {
     name: 'Food Fighter',
+    detail: 'Choose a restaurant with friends',
     link: 'https://food-fighter.herokuapp.com'
   },
-  {
-    name: 'Social Nights',
-    link: 'https://johnstonjacob.com/socialnights'
-  }
 ];
 
 export default appdata;

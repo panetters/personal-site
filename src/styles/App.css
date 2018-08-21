@@ -36,25 +36,51 @@ html {
   justify-content: space-around;
 }
 
-.app-box {
-  display: inline-block;
+.app-box, .app-name-front, .app-detail-back {
   height: calc(20px + 15vw);
   width: calc(20px + 15vw);
+}
+
+.app-box {
+  display: inline-block;
   background-color: rgba(255, 255, 255, .3);
-  transition: background-color 0.5s ease;
+  perspective: 1000px;
 }
 
 .app-box:hover {
-  background-color: rgba(255, 255, 255, .5);
   cursor: pointer;
 }
 
-.app-name {
-  height: calc(20px + 15vw);
-  line-height: calc(20px + 15vw);;
+.app-box:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.app-name-front, .app-detail-back {
+  text-align: center;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.app-name-front {
+  line-height: calc(20px + 15vw);
   font-family: Quicksand;
   font-size: calc(5px + 1.8vw);
-  text-align: center;
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.app-detail-back {
+  font-family: Quicksand;
+  font-size: calc(3px + 1.5vw);
+  transform: rotateY(180deg);
 }
 
 .personal-links {

@@ -11,9 +11,9 @@ class ApplicationList extends Component {
           Applications:
         </div>
         <div className="app-links">
-          {AppsList.map(app => {
-            return <Application key={app.name} app={app.name} link={app.link}/>
-          })}
+          {AppsList.map(app =>
+            <Application key={app.name} app={app.name} detail={app.detail} link={app.link}/>
+          )}
         </div>
       </React.Fragment>
     );

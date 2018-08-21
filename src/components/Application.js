@@ -14,8 +14,13 @@ class Application extends Component {
   render() {
     return (
       <div className="app-box" onClick={this.openLink}>
-        <div className="app-name">
-          {this.props.app}
+        <div className="flipper">
+          <div className="app-name-front">
+            {this.props.app}
+          </div>
+          <div className="app-detail-back">
+            {this.props.detail}
+          </div>
         </div>
       </div>
     );
