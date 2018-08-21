@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <div className="title">
           My name is Michael Panetta,<br/>
-          Welcome to my site.
+          this is my website.
         </div>
         <Applications/>
         <BottomBar/>

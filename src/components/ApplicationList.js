@@ -6,11 +6,16 @@ import AppsList from '../data/appdata';
 class ApplicationList extends Component {
   render() {
     return (
-      <div className="app-links">
-        {AppsList.map(app => {
-          return <Application key={app.name} app={app.name} link={app.link}/>
-        })}
-      </div>
+      <React.Fragment>
+        <div className="section-header">
+          Applications:
+        </div>
+        <div className="app-links">
+          {AppsList.map(app => {
+            return <Application key={app.name} app={app.name} link={app.link}/>
+          })}
+        </div>
+      </React.Fragment>
     );
   }
 }
