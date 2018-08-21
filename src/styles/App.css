@@ -26,14 +26,20 @@ html {
 .app-links {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .app-box {
   display: inline-block;
   height: 20vw;
   width: 20vw;
-  background: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, .3);
+  transition: background-color 0.5s ease;
+}
+
+.app-box:hover {
+  background-color: rgba(255, 255, 255, .5);
+  cursor: pointer;
 }
 
 .app-name {

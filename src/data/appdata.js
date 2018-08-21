@@ -1,7 +1,15 @@
 const appdata = [
   {
     name: 'Handycap',
-    link: '/handycap'
+    link: 'https://handycap.herokuapp.com'
+  },
+  {
+    name: 'Food Fighter',
+    link: 'https://food-fighter.herokuapp.com'
+  },
+  {
+    name: 'Social Nights',
+    link: 'https://johnstonjacob.com/socialnights'
   }
 ];
 
