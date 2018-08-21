@@ -78,6 +78,7 @@ html {
 }
 
 .app-detail-back {
+  padding: calc(7.5px + 4vw) 0;
   font-family: Quicksand;
   font-size: calc(3px + 1.5vw);
   transform: rotateY(180deg);
