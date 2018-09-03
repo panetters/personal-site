@@ -25,7 +25,13 @@ html {
 
 .section-header {
   font-family: Quicksand;
-  font-size: calc(8px + 3vw);
+  font-size: calc(8px + 2vw);
+  padding: 1vh 3vw;
+  margin-bottom: 3vh;
+}
+
+.section-detail {
+  font-size: calc(6px + 1.5vw);
   padding: 1vh 3vw;
   margin-bottom: 3vh;
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 
-import Applications from './ApplicationList';
+import About from './About';
+import ApplicationList from './ApplicationList';
 import BottomBar from './BottomBar';
 
 class App extends Component {
@@ -12,7 +13,8 @@ class App extends Component {
           My name is Michael Panetta,<br/>
           this is my website.
         </div>
-        <Applications/>
+        <About/>
+        <ApplicationList/>
         <BottomBar/>
       </div>
     );
