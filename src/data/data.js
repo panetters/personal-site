@@ -17,8 +17,8 @@ const data = {
     },
   ],
   about: 'Versatile fullstack software engineer eager to learn new technologies.' +  
-    'I love bringing data to life on a computer screen.' +
-    'Dabbling hobbyist and struggling golfer in my free time.',
+    ' I love bringing data to life on a computer screen.' +
+    ' Dabbling hobbyist and struggling golfer in my free time.',
   skills: [
     {area: 'Front End', list: 'JavaScript (ES5, ES6), React, Redux, AngularJS, Vue, Vuex, HTML5, CSS3'},
     {area: 'Back End', list: 'Node.js, Express, SQL, PostgreSQL, MongoDB, Redis, Socket.io'},
