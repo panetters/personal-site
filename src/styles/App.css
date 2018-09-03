@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto:300,500');
 
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+  font-size: 100%;
 	font: inherit;
   vertical-align: baseline;
   font-family: Roboto;
@@ -32,8 +32,15 @@ html {
 
 .section-detail {
   font-size: calc(6px + 1.5vw);
+  font-weight: 300;
   padding: 1vh 3vw;
   margin-bottom: 3vh;
+}
+
+.skill-area {
+  font-size: calc(6px + 1.5vw);
+  font-weight: 500;
+  padding: 1vh 3vw;
 }
 
 .app-links {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import data from '../data/data';
+
 class About extends Component {
   render() {
     return (
@@ -8,9 +10,7 @@ class About extends Component {
           About:
         </div>
         <div className="section-detail">
-          Versatile fullstack software engineer eager to learn new technologies. 
-          I love bringing data to life on a computer screen. 
-          Dabbling hobbyist and struggling golfer in my free time.
+          {data.about}
         </div>
       </React.Fragment>
     );

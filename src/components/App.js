@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 
 import About from './About';
+import Skills from './Skills';
 import ApplicationList from './ApplicationList';
 import BottomBar from './BottomBar';
 
@@ -14,6 +15,7 @@ class App extends Component {
           this is my website.
         </div>
         <About/>
+        <Skills/>
         <ApplicationList/>
         <BottomBar/>
       </div>

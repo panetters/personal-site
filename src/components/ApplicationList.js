@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Application from './Application';
-import AppsList from '../data/appdata';
+import data from '../data/data';
 
 class ApplicationList extends Component {
   render() {
@@ -11,7 +11,7 @@ class ApplicationList extends Component {
           Applications:
         </div>
         <div className="app-links">
-          {AppsList.map(app =>
+          {data.apps.map(app =>
             <Application key={app.name} app={app.name} detail={app.detail} link={app.link}/>
           )}
         </div>
