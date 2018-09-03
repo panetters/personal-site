@@ -10,6 +10,9 @@ class BottomBar extends Component {
         <a href="https://github.com/panetters" target="_blank" rel="noopener noreferrer">
           <img src="github.svg" alt="" className="personal-svg"/>
         </a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+          <img src="cv.svg" alt="" className="personal-svg"/>
+        </a>
       </div>
     );
   }

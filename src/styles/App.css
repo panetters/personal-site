@@ -91,5 +91,5 @@ html {
 
 .personal-svg {
   margin: 2vw;
-  height: 5vw;
+  height: calc(10px + 3vw);
 }
